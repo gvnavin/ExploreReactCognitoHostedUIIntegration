@@ -6,11 +6,11 @@ const logger = new Logger('gvn-Logger');
 Amplify.configure({
   Auth: {
     region: 'ap-south-1',
-    userPoolId: 'ap-south-',
-    userPoolWebClientId: '',
+    userPoolId: 'ap-south-1_O6J6OzLJE',
+    userPoolWebClientId: '7qubli0032hl9c9n75tj4c36ek',
     mandatorySignIn: true,
     oauth: {
-      domain: 'test.auth.ap-south-1.amazoncognito.com',
+      domain: 'idsk-ideskcoreservicewave1id-dev-internal.auth.ap-south-1.amazoncognito.com',
       scope: ['email', 'openid', 'profile'],
       redirectSignIn: 'http://localhost:3000/',
       redirectSignOut: 'http://localhost:3000/',
